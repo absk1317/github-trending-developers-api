@@ -5,9 +5,12 @@ module Api
     # trends route handler
     class TrendsController < ApplicationController
       def developers
-        trends = Trends::Developer.new(trend_params).current
-        meta   = {}
-        render json: trends, meta: meta
+        trends = Trends::Developers.new(trend_params).results
+        render json: trends
+      end
+
+      def trend_params
+        params.permit(:language, :since, :type)
       end
     end
   end

@@ -2,8 +2,8 @@
 
 module Trends
   # fetch trending developers service
-  class Developers
-    SERVICE_URL = 'https://github-trending-api.now.sh/developers'
+  class Developers < Trends::Base
+    SERVICE_URL = BASE_SERVICE_URL + '/developers'
     attr_accessor :language, :since, :type
 
     def initialize(params)
@@ -13,11 +13,27 @@ module Trends
     end
 
     def results
-      NetworkService
-        .new(url: SERVICE_URL,
-             request_type: :get,
-             query: { language: language, since: since, type: type})
-        .response
+      if data_in_redis
+        parse_data(data_in_redis)
+      else
+        query_network
+      end
+    end
+
+    private
+
+    def data_in_redis
+      @data_in_redis ||= redis.get("#{language}-#{since}-developers")
+    end
+
+    def query_network
+      data = NetworkService.new(url: SERVICE_URL,
+                                request_type: :get,
+                                query: { language: language, since: since, type: type })
+                           .response
+
+      redis_set("#{language}-#{since}-developers", data)
+      data
     end
   end
 end

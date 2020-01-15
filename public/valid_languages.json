@@ -1,0 +1,1886 @@
+[
+  {
+    "code": "1c-enterprise",
+    "name": "1C Enterprise"
+  },
+  {
+    "code": "abap",
+    "name": "ABAP"
+  },
+  {
+    "code": "abnf",
+    "name": "ABNF"
+  },
+  {
+    "code": "actionscript",
+    "name": "ActionScript"
+  },
+  {
+    "code": "ada",
+    "name": "Ada"
+  },
+  {
+    "code": "adobe-font-metrics",
+    "name": "Adobe Font Metrics"
+  },
+  {
+    "code": "agda",
+    "name": "Agda"
+  },
+  {
+    "code": "ags-script",
+    "name": "AGS Script"
+  },
+  {
+    "code": "alloy",
+    "name": "Alloy"
+  },
+  {
+    "code": "alpine-abuild",
+    "name": "Alpine Abuild"
+  },
+  {
+    "code": "ampl",
+    "name": "AMPL"
+  },
+  {
+    "code": "angelscript",
+    "name": "AngelScript"
+  },
+  {
+    "code": "ant-build-system",
+    "name": "Ant Build System"
+  },
+  {
+    "code": "antlr",
+    "name": "ANTLR"
+  },
+  {
+    "code": "apacheconf",
+    "name": "ApacheConf"
+  },
+  {
+    "code": "apex",
+    "name": "Apex"
+  },
+  {
+    "code": "api-blueprint",
+    "name": "API Blueprint"
+  },
+  {
+    "code": "apl",
+    "name": "APL"
+  },
+  {
+    "code": "apollo-guidance-computer",
+    "name": "Apollo Guidance Computer"
+  },
+  {
+    "code": "applescript",
+    "name": "AppleScript"
+  },
+  {
+    "code": "arc",
+    "name": "Arc"
+  },
+  {
+    "code": "asciidoc",
+    "name": "AsciiDoc"
+  },
+  {
+    "code": "asn.1",
+    "name": "ASN.1"
+  },
+  {
+    "code": "asp",
+    "name": "ASP"
+  },
+  {
+    "code": "aspectj",
+    "name": "AspectJ"
+  },
+  {
+    "code": "assembly",
+    "name": "Assembly"
+  },
+  {
+    "code": "ats",
+    "name": "ATS"
+  },
+  {
+    "code": "augeas",
+    "name": "Augeas"
+  },
+  {
+    "code": "autohotcode",
+    "name": "AutoHotcode"
+  },
+  {
+    "code": "autoit",
+    "name": "AutoIt"
+  },
+  {
+    "code": "awk",
+    "name": "Awk"
+  },
+  {
+    "code": "ballerina",
+    "name": "Ballerina"
+  },
+  {
+    "code": "batchfile",
+    "name": "Batchfile"
+  },
+  {
+    "code": "befunge",
+    "name": "Befunge"
+  },
+  {
+    "code": "bison",
+    "name": "Bison"
+  },
+  {
+    "code": "bitbake",
+    "name": "BitBake"
+  },
+  {
+    "code": "blade",
+    "name": "Blade"
+  },
+  {
+    "code": "blitzbasic",
+    "name": "BlitzBasic"
+  },
+  {
+    "code": "blitzmax",
+    "name": "BlitzMax"
+  },
+  {
+    "code": "bluespec",
+    "name": "Bluespec"
+  },
+  {
+    "code": "boo",
+    "name": "Boo"
+  },
+  {
+    "code": "brainfuck",
+    "name": "Brainfuck"
+  },
+  {
+    "code": "brightscript",
+    "name": "Brightscript"
+  },
+  {
+    "code": "bro",
+    "name": "Bro"
+  },
+  {
+    "code": "c",
+    "name": "C"
+  },
+  {
+    "code": "c%23",
+    "name": "C#"
+  },
+  {
+    "code": "c++",
+    "name": "C++"
+  },
+  {
+    "code": "c-objdump",
+    "name": "C-ObjDump"
+  },
+  {
+    "code": "c2hs-haskell",
+    "name": "C2hs Haskell"
+  },
+  {
+    "code": "cap'n-proto",
+    "name": "Cap'n Proto"
+  },
+  {
+    "code": "cartocss",
+    "name": "CartoCSS"
+  },
+  {
+    "code": "ceylon",
+    "name": "Ceylon"
+  },
+  {
+    "code": "chapel",
+    "name": "Chapel"
+  },
+  {
+    "code": "charity",
+    "name": "Charity"
+  },
+  {
+    "code": "chuck",
+    "name": "ChucK"
+  },
+  {
+    "code": "cirru",
+    "name": "Cirru"
+  },
+  {
+    "code": "clarion",
+    "name": "Clarion"
+  },
+  {
+    "code": "clean",
+    "name": "Clean"
+  },
+  {
+    "code": "click",
+    "name": "Click"
+  },
+  {
+    "code": "clips",
+    "name": "CLIPS"
+  },
+  {
+    "code": "clojure",
+    "name": "Clojure"
+  },
+  {
+    "code": "closure-templates",
+    "name": "Closure Templates"
+  },
+  {
+    "code": "cmake",
+    "name": "CMake"
+  },
+  {
+    "code": "cobol",
+    "name": "COBOL"
+  },
+  {
+    "code": "coffeescript",
+    "name": "CoffeeScript"
+  },
+  {
+    "code": "coldfusion",
+    "name": "ColdFusion"
+  },
+  {
+    "code": "coldfusion-cfc",
+    "name": "ColdFusion CFC"
+  },
+  {
+    "code": "collada",
+    "name": "COLLADA"
+  },
+  {
+    "code": "common-lisp",
+    "name": "Common Lisp"
+  },
+  {
+    "code": "common-workflow-language",
+    "name": "Common Workflow Language"
+  },
+  {
+    "code": "component-pascal",
+    "name": "Component Pascal"
+  },
+  {
+    "code": "cool",
+    "name": "Cool"
+  },
+  {
+    "code": "coq",
+    "name": "Coq"
+  },
+  {
+    "code": "cpp-objdump",
+    "name": "Cpp-ObjDump"
+  },
+  {
+    "code": "creole",
+    "name": "Creole"
+  },
+  {
+    "code": "crystal",
+    "name": "Crystal"
+  },
+  {
+    "code": "cson",
+    "name": "CSON"
+  },
+  {
+    "code": "csound",
+    "name": "Csound"
+  },
+  {
+    "code": "csound-document",
+    "name": "Csound Document"
+  },
+  {
+    "code": "csound-score",
+    "name": "Csound Score"
+  },
+  {
+    "code": "css",
+    "name": "CSS"
+  },
+  {
+    "code": "csv",
+    "name": "CSV"
+  },
+  {
+    "code": "cuda",
+    "name": "Cuda"
+  },
+  {
+    "code": "cweb",
+    "name": "CWeb"
+  },
+  {
+    "code": "cycript",
+    "name": "Cycript"
+  },
+  {
+    "code": "cython",
+    "name": "Cython"
+  },
+  {
+    "code": "d",
+    "name": "D"
+  },
+  {
+    "code": "d-objdump",
+    "name": "D-ObjDump"
+  },
+  {
+    "code": "darcs-patch",
+    "name": "Darcs Patch"
+  },
+  {
+    "code": "dart",
+    "name": "Dart"
+  },
+  {
+    "code": "dataweave",
+    "name": "DataWeave"
+  },
+  {
+    "code": "desktop",
+    "name": "desktop"
+  },
+  {
+    "code": "diff",
+    "name": "Diff"
+  },
+  {
+    "code": "digital-command-language",
+    "name": "DIGITAL Command Language"
+  },
+  {
+    "code": "dm",
+    "name": "DM"
+  },
+  {
+    "code": "dns-zone",
+    "name": "DNS Zone"
+  },
+  {
+    "code": "dockerfile",
+    "name": "Dockerfile"
+  },
+  {
+    "code": "dogescript",
+    "name": "Dogescript"
+  },
+  {
+    "code": "dtrace",
+    "name": "DTrace"
+  },
+  {
+    "code": "dylan",
+    "name": "Dylan"
+  },
+  {
+    "code": "e",
+    "name": "E"
+  },
+  {
+    "code": "eagle",
+    "name": "Eagle"
+  },
+  {
+    "code": "easybuild",
+    "name": "Easybuild"
+  },
+  {
+    "code": "ebnf",
+    "name": "EBNF"
+  },
+  {
+    "code": "ec",
+    "name": "eC"
+  },
+  {
+    "code": "ecere-projects",
+    "name": "Ecere Projects"
+  },
+  {
+    "code": "ecl",
+    "name": "ECL"
+  },
+  {
+    "code": "eclipse",
+    "name": "ECLiPSe"
+  },
+  {
+    "code": "edje-data-collection",
+    "name": "Edje Data Collection"
+  },
+  {
+    "code": "edn",
+    "name": "edn"
+  },
+  {
+    "code": "eiffel",
+    "name": "Eiffel"
+  },
+  {
+    "code": "ejs",
+    "name": "EJS"
+  },
+  {
+    "code": "elixir",
+    "name": "Elixir"
+  },
+  {
+    "code": "elm",
+    "name": "Elm"
+  },
+  {
+    "code": "emacs-lisp",
+    "name": "Emacs Lisp"
+  },
+  {
+    "code": "emberscript",
+    "name": "EmberScript"
+  },
+  {
+    "code": "eq",
+    "name": "EQ"
+  },
+  {
+    "code": "erlang",
+    "name": "Erlang"
+  },
+  {
+    "code": "f%23",
+    "name": "F#"
+  },
+  {
+    "code": "factor",
+    "name": "Factor"
+  },
+  {
+    "code": "fancy",
+    "name": "Fancy"
+  },
+  {
+    "code": "fantom",
+    "name": "Fantom"
+  },
+  {
+    "code": "filebench-wml",
+    "name": "Filebench WML"
+  },
+  {
+    "code": "filterscript",
+    "name": "Filterscript"
+  },
+  {
+    "code": "fish",
+    "name": "fish"
+  },
+  {
+    "code": "flux",
+    "name": "FLUX"
+  },
+  {
+    "code": "formatted",
+    "name": "Formatted"
+  },
+  {
+    "code": "forth",
+    "name": "Forth"
+  },
+  {
+    "code": "fortran",
+    "name": "Fortran"
+  },
+  {
+    "code": "freemarker",
+    "name": "FreeMarker"
+  },
+  {
+    "code": "frege",
+    "name": "Frege"
+  },
+  {
+    "code": "g-code",
+    "name": "G-code"
+  },
+  {
+    "code": "game-maker-language",
+    "name": "Game Maker Language"
+  },
+  {
+    "code": "gams",
+    "name": "GAMS"
+  },
+  {
+    "code": "gap",
+    "name": "GAP"
+  },
+  {
+    "code": "gcc-machine-description",
+    "name": "GCC Machine Description"
+  },
+  {
+    "code": "gdb",
+    "name": "GDB"
+  },
+  {
+    "code": "gdscript",
+    "name": "GDScript"
+  },
+  {
+    "code": "genie",
+    "name": "Genie"
+  },
+  {
+    "code": "genshi",
+    "name": "Genshi"
+  },
+  {
+    "code": "gentoo-ebuild",
+    "name": "Gentoo Ebuild"
+  },
+  {
+    "code": "gentoo-eclass",
+    "name": "Gentoo Eclass"
+  },
+  {
+    "code": "gerber-image",
+    "name": "Gerber Image"
+  },
+  {
+    "code": "gettext-catalog",
+    "name": "Gettext Catalog"
+  },
+  {
+    "code": "gherkin",
+    "name": "Gherkin"
+  },
+  {
+    "code": "glsl",
+    "name": "GLSL"
+  },
+  {
+    "code": "glyph",
+    "name": "Glyph"
+  },
+  {
+    "code": "gn",
+    "name": "GN"
+  },
+  {
+    "code": "gnuplot",
+    "name": "Gnuplot"
+  },
+  {
+    "code": "go",
+    "name": "Go"
+  },
+  {
+    "code": "golo",
+    "name": "Golo"
+  },
+  {
+    "code": "gosu",
+    "name": "Gosu"
+  },
+  {
+    "code": "grace",
+    "name": "Grace"
+  },
+  {
+    "code": "gradle",
+    "name": "Gradle"
+  },
+  {
+    "code": "grammatical-framework",
+    "name": "Grammatical Framework"
+  },
+  {
+    "code": "graph-modeling-language",
+    "name": "Graph Modeling Language"
+  },
+  {
+    "code": "graphql",
+    "name": "GraphQL"
+  },
+  {
+    "code": "graphviz-(dot)",
+    "name": "Graphviz (DOT)"
+  },
+  {
+    "code": "groovy",
+    "name": "Groovy"
+  },
+  {
+    "code": "groovy-server-pages",
+    "name": "Groovy Server Pages"
+  },
+  {
+    "code": "hack",
+    "name": "Hack"
+  },
+  {
+    "code": "haml",
+    "name": "Haml"
+  },
+  {
+    "code": "handlebars",
+    "name": "Handlebars"
+  },
+  {
+    "code": "harbour",
+    "name": "Harbour"
+  },
+  {
+    "code": "haskell",
+    "name": "Haskell"
+  },
+  {
+    "code": "haxe",
+    "name": "Haxe"
+  },
+  {
+    "code": "hcl",
+    "name": "HCL"
+  },
+  {
+    "code": "hlsl",
+    "name": "HLSL"
+  },
+  {
+    "code": "html",
+    "name": "HTML"
+  },
+  {
+    "code": "html+django",
+    "name": "HTML+Django"
+  },
+  {
+    "code": "html+ecr",
+    "name": "HTML+ECR"
+  },
+  {
+    "code": "html+eex",
+    "name": "HTML+EEX"
+  },
+  {
+    "code": "html+erb",
+    "name": "HTML+ERB"
+  },
+  {
+    "code": "html+php",
+    "name": "HTML+PHP"
+  },
+  {
+    "code": "http",
+    "name": "HTTP"
+  },
+  {
+    "code": "hy",
+    "name": "Hy"
+  },
+  {
+    "code": "hyphy",
+    "name": "HyPhy"
+  },
+  {
+    "code": "idl",
+    "name": "IDL"
+  },
+  {
+    "code": "idris",
+    "name": "Idris"
+  },
+  {
+    "code": "igor-pro",
+    "name": "IGOR Pro"
+  },
+  {
+    "code": "inform-7",
+    "name": "Inform 7"
+  },
+  {
+    "code": "ini",
+    "name": "INI"
+  },
+  {
+    "code": "inno-setup",
+    "name": "Inno Setup"
+  },
+  {
+    "code": "io",
+    "name": "Io"
+  },
+  {
+    "code": "ioke",
+    "name": "Ioke"
+  },
+  {
+    "code": "irc-log",
+    "name": "IRC log"
+  },
+  {
+    "code": "isabelle",
+    "name": "Isabelle"
+  },
+  {
+    "code": "isabelle-root",
+    "name": "Isabelle ROOT"
+  },
+  {
+    "code": "j",
+    "name": "J"
+  },
+  {
+    "code": "jasmin",
+    "name": "Jasmin"
+  },
+  {
+    "code": "java",
+    "name": "Java"
+  },
+  {
+    "code": "java-server-pages",
+    "name": "Java Server Pages"
+  },
+  {
+    "code": "javascript",
+    "name": "JavaScript"
+  },
+  {
+    "code": "jflex",
+    "name": "JFlex"
+  },
+  {
+    "code": "jison",
+    "name": "Jison"
+  },
+  {
+    "code": "jison-lex",
+    "name": "Jison Lex"
+  },
+  {
+    "code": "jolie",
+    "name": "Jolie"
+  },
+  {
+    "code": "json",
+    "name": "JSON"
+  },
+  {
+    "code": "json5",
+    "name": "JSON5"
+  },
+  {
+    "code": "jsoniq",
+    "name": "JSONiq"
+  },
+  {
+    "code": "jsonld",
+    "name": "JSONLD"
+  },
+  {
+    "code": "jsx",
+    "name": "JSX"
+  },
+  {
+    "code": "julia",
+    "name": "Julia"
+  },
+  {
+    "code": "jupyter-notebook",
+    "name": "Jupyter Notebook"
+  },
+  {
+    "code": "kicad-layout",
+    "name": "KiCad Layout"
+  },
+  {
+    "code": "kicad-legacy-layout",
+    "name": "KiCad Legacy Layout"
+  },
+  {
+    "code": "kicad-schematic",
+    "name": "KiCad Schematic"
+  },
+  {
+    "code": "kit",
+    "name": "Kit"
+  },
+  {
+    "code": "kotlin",
+    "name": "Kotlin"
+  },
+  {
+    "code": "krl",
+    "name": "KRL"
+  },
+  {
+    "code": "labview",
+    "name": "LabVIEW"
+  },
+  {
+    "code": "lasso",
+    "name": "Lasso"
+  },
+  {
+    "code": "latte",
+    "name": "Latte"
+  },
+  {
+    "code": "lean",
+    "name": "Lean"
+  },
+  {
+    "code": "less",
+    "name": "Less"
+  },
+  {
+    "code": "lex",
+    "name": "Lex"
+  },
+  {
+    "code": "lfe",
+    "name": "LFE"
+  },
+  {
+    "code": "lilypond",
+    "name": "LilyPond"
+  },
+  {
+    "code": "limbo",
+    "name": "Limbo"
+  },
+  {
+    "code": "linker-script",
+    "name": "Linker Script"
+  },
+  {
+    "code": "linux-kernel-module",
+    "name": "Linux Kernel Module"
+  },
+  {
+    "code": "liquid",
+    "name": "Liquid"
+  },
+  {
+    "code": "literate-agda",
+    "name": "Literate Agda"
+  },
+  {
+    "code": "literate-coffeescript",
+    "name": "Literate CoffeeScript"
+  },
+  {
+    "code": "literate-haskell",
+    "name": "Literate Haskell"
+  },
+  {
+    "code": "livescript",
+    "name": "LiveScript"
+  },
+  {
+    "code": "llvm",
+    "name": "LLVM"
+  },
+  {
+    "code": "logos",
+    "name": "Logos"
+  },
+  {
+    "code": "logtalk",
+    "name": "Logtalk"
+  },
+  {
+    "code": "lolcode",
+    "name": "LOLCODE"
+  },
+  {
+    "code": "lookml",
+    "name": "LookML"
+  },
+  {
+    "code": "loomscript",
+    "name": "LoomScript"
+  },
+  {
+    "code": "lsl",
+    "name": "LSL"
+  },
+  {
+    "code": "lua",
+    "name": "Lua"
+  },
+  {
+    "code": "m",
+    "name": "M"
+  },
+  {
+    "code": "m4",
+    "name": "M4"
+  },
+  {
+    "code": "m4sugar",
+    "name": "M4Sugar"
+  },
+  {
+    "code": "makefile",
+    "name": "Makefile"
+  },
+  {
+    "code": "mako",
+    "name": "Mako"
+  },
+  {
+    "code": "markdown",
+    "name": "Markdown"
+  },
+  {
+    "code": "marko",
+    "name": "Marko"
+  },
+  {
+    "code": "mask",
+    "name": "Mask"
+  },
+  {
+    "code": "mathematica",
+    "name": "Mathematica"
+  },
+  {
+    "code": "matlab",
+    "name": "Matlab"
+  },
+  {
+    "code": "maven-pom",
+    "name": "Maven POM"
+  },
+  {
+    "code": "max",
+    "name": "Max"
+  },
+  {
+    "code": "maxscript",
+    "name": "MAXScript"
+  },
+  {
+    "code": "mediawiki",
+    "name": "MediaWiki"
+  },
+  {
+    "code": "mercury",
+    "name": "Mercury"
+  },
+  {
+    "code": "meson",
+    "name": "Meson"
+  },
+  {
+    "code": "metal",
+    "name": "Metal"
+  },
+  {
+    "code": "minid",
+    "name": "MiniD"
+  },
+  {
+    "code": "mirah",
+    "name": "Mirah"
+  },
+  {
+    "code": "modelica",
+    "name": "Modelica"
+  },
+  {
+    "code": "modula-2",
+    "name": "Modula-2"
+  },
+  {
+    "code": "module-management-system",
+    "name": "Module Management System"
+  },
+  {
+    "code": "moncode",
+    "name": "Moncode"
+  },
+  {
+    "code": "moocode",
+    "name": "Moocode"
+  },
+  {
+    "code": "moonscript",
+    "name": "MoonScript"
+  },
+  {
+    "code": "mql4",
+    "name": "MQL4"
+  },
+  {
+    "code": "mql5",
+    "name": "MQL5"
+  },
+  {
+    "code": "mtml",
+    "name": "MTML"
+  },
+  {
+    "code": "muf",
+    "name": "MUF"
+  },
+  {
+    "code": "mupad",
+    "name": "mupad"
+  },
+  {
+    "code": "myghty",
+    "name": "Myghty"
+  },
+  {
+    "code": "ncl",
+    "name": "NCL"
+  },
+  {
+    "code": "nearley",
+    "name": "Nearley"
+  },
+  {
+    "code": "nemerle",
+    "name": "Nemerle"
+  },
+  {
+    "code": "nesc",
+    "name": "nesC"
+  },
+  {
+    "code": "netlinx",
+    "name": "NetLinx"
+  },
+  {
+    "code": "netlinx+erb",
+    "name": "NetLinx+ERB"
+  },
+  {
+    "code": "netlogo",
+    "name": "NetLogo"
+  },
+  {
+    "code": "newlisp",
+    "name": "NewLisp"
+  },
+  {
+    "code": "nextflow",
+    "name": "Nextflow"
+  },
+  {
+    "code": "nginx",
+    "name": "Nginx"
+  },
+  {
+    "code": "nim",
+    "name": "Nim"
+  },
+  {
+    "code": "ninja",
+    "name": "Ninja"
+  },
+  {
+    "code": "nit",
+    "name": "Nit"
+  },
+  {
+    "code": "nix",
+    "name": "Nix"
+  },
+  {
+    "code": "nl",
+    "name": "NL"
+  },
+  {
+    "code": "nsis",
+    "name": "NSIS"
+  },
+  {
+    "code": "nu",
+    "name": "Nu"
+  },
+  {
+    "code": "numpy",
+    "name": "NumPy"
+  },
+  {
+    "code": "objdump",
+    "name": "ObjDump"
+  },
+  {
+    "code": "objective-c",
+    "name": "Objective-C"
+  },
+  {
+    "code": "objective-c++",
+    "name": "Objective-C++"
+  },
+  {
+    "code": "objective-j",
+    "name": "Objective-J"
+  },
+  {
+    "code": "ocaml",
+    "name": "OCaml"
+  },
+  {
+    "code": "omgrofl",
+    "name": "Omgrofl"
+  },
+  {
+    "code": "ooc",
+    "name": "ooc"
+  },
+  {
+    "code": "opa",
+    "name": "Opa"
+  },
+  {
+    "code": "opal",
+    "name": "Opal"
+  },
+  {
+    "code": "opencl",
+    "name": "OpenCL"
+  },
+  {
+    "code": "openedge-abl",
+    "name": "OpenEdge ABL"
+  },
+  {
+    "code": "openrc-runscript",
+    "name": "OpenRC runscript"
+  },
+  {
+    "code": "openscad",
+    "name": "OpenSCAD"
+  },
+  {
+    "code": "opentype-feature-file",
+    "name": "OpenType Feature File"
+  },
+  {
+    "code": "org",
+    "name": "Org"
+  },
+  {
+    "code": "ox",
+    "name": "Ox"
+  },
+  {
+    "code": "oxygene",
+    "name": "Oxygene"
+  },
+  {
+    "code": "oz",
+    "name": "Oz"
+  },
+  {
+    "code": "p4",
+    "name": "P4"
+  },
+  {
+    "code": "pan",
+    "name": "Pan"
+  },
+  {
+    "code": "papyrus",
+    "name": "Papyrus"
+  },
+  {
+    "code": "parrot",
+    "name": "Parrot"
+  },
+  {
+    "code": "parrot-assembly",
+    "name": "Parrot Assembly"
+  },
+  {
+    "code": "parrot-internal-representation",
+    "name": "Parrot Internal Representation"
+  },
+  {
+    "code": "pascal",
+    "name": "Pascal"
+  },
+  {
+    "code": "pawn",
+    "name": "PAWN"
+  },
+  {
+    "code": "pep8",
+    "name": "Pep8"
+  },
+  {
+    "code": "perl",
+    "name": "Perl"
+  },
+  {
+    "code": "perl-6",
+    "name": "Perl 6"
+  },
+  {
+    "code": "php",
+    "name": "PHP"
+  },
+  {
+    "code": "pic",
+    "name": "Pic"
+  },
+  {
+    "code": "pickle",
+    "name": "Pickle"
+  },
+  {
+    "code": "picolisp",
+    "name": "PicoLisp"
+  },
+  {
+    "code": "piglatin",
+    "name": "PigLatin"
+  },
+  {
+    "code": "pike",
+    "name": "Pike"
+  },
+  {
+    "code": "plpgsql",
+    "name": "PLpgSQL"
+  },
+  {
+    "code": "plsql",
+    "name": "PLSQL"
+  },
+  {
+    "code": "pod",
+    "name": "Pod"
+  },
+  {
+    "code": "pogoscript",
+    "name": "PogoScript"
+  },
+  {
+    "code": "pony",
+    "name": "Pony"
+  },
+  {
+    "code": "postcss",
+    "name": "PostCSS"
+  },
+  {
+    "code": "postscript",
+    "name": "PostScript"
+  },
+  {
+    "code": "pov-ray-sdl",
+    "name": "POV-Ray SDL"
+  },
+  {
+    "code": "powerbuilder",
+    "name": "PowerBuilder"
+  },
+  {
+    "code": "powershell",
+    "name": "PowerShell"
+  },
+  {
+    "code": "processing",
+    "name": "Processing"
+  },
+  {
+    "code": "prolog",
+    "name": "Prolog"
+  },
+  {
+    "code": "propeller-spin",
+    "name": "Propeller Spin"
+  },
+  {
+    "code": "protocol-buffer",
+    "name": "Protocol Buffer"
+  },
+  {
+    "code": "public-code",
+    "name": "Public code"
+  },
+  {
+    "code": "pug",
+    "name": "Pug"
+  },
+  {
+    "code": "puppet",
+    "name": "Puppet"
+  },
+  {
+    "code": "pure-data",
+    "name": "Pure Data"
+  },
+  {
+    "code": "purebasic",
+    "name": "PureBasic"
+  },
+  {
+    "code": "purescript",
+    "name": "PureScript"
+  },
+  {
+    "code": "python",
+    "name": "Python"
+  },
+  {
+    "code": "python-console",
+    "name": "Python console"
+  },
+  {
+    "code": "python-traceback",
+    "name": "Python traceback"
+  },
+  {
+    "code": "qmake",
+    "name": "QMake"
+  },
+  {
+    "code": "qml",
+    "name": "QML"
+  },
+  {
+    "code": "r",
+    "name": "R"
+  },
+  {
+    "code": "racket",
+    "name": "Racket"
+  },
+  {
+    "code": "ragel",
+    "name": "Ragel"
+  },
+  {
+    "code": "raml",
+    "name": "RAML"
+  },
+  {
+    "code": "rascal",
+    "name": "Rascal"
+  },
+  {
+    "code": "raw-token-data",
+    "name": "Raw token data"
+  },
+  {
+    "code": "rdoc",
+    "name": "RDoc"
+  },
+  {
+    "code": "realbasic",
+    "name": "REALbasic"
+  },
+  {
+    "code": "reason",
+    "name": "Reason"
+  },
+  {
+    "code": "rebol",
+    "name": "Rebol"
+  },
+  {
+    "code": "red",
+    "name": "Red"
+  },
+  {
+    "code": "redcode",
+    "name": "Redcode"
+  },
+  {
+    "code": "regular-expression",
+    "name": "Regular Expression"
+  },
+  {
+    "code": "ren'py",
+    "name": "Ren'Py"
+  },
+  {
+    "code": "renderscript",
+    "name": "RenderScript"
+  },
+  {
+    "code": "restructuredtext",
+    "name": "reStructuredText"
+  },
+  {
+    "code": "rexx",
+    "name": "REXX"
+  },
+  {
+    "code": "rhtml",
+    "name": "RHTML"
+  },
+  {
+    "code": "ring",
+    "name": "Ring"
+  },
+  {
+    "code": "rmarkdown",
+    "name": "RMarkdown"
+  },
+  {
+    "code": "robotframework",
+    "name": "RobotFramework"
+  },
+  {
+    "code": "roff",
+    "name": "Roff"
+  },
+  {
+    "code": "rouge",
+    "name": "Rouge"
+  },
+  {
+    "code": "rpc",
+    "name": "RPC"
+  },
+  {
+    "code": "rpm-spec",
+    "name": "RPM Spec"
+  },
+  {
+    "code": "ruby",
+    "name": "Ruby"
+  },
+  {
+    "code": "runoff",
+    "name": "RUNOFF"
+  },
+  {
+    "code": "rust",
+    "name": "Rust"
+  },
+  {
+    "code": "sage",
+    "name": "Sage"
+  },
+  {
+    "code": "saltstack",
+    "name": "SaltStack"
+  },
+  {
+    "code": "sas",
+    "name": "SAS"
+  },
+  {
+    "code": "sass",
+    "name": "Sass"
+  },
+  {
+    "code": "scala",
+    "name": "Scala"
+  },
+  {
+    "code": "scaml",
+    "name": "Scaml"
+  },
+  {
+    "code": "scheme",
+    "name": "Scheme"
+  },
+  {
+    "code": "scilab",
+    "name": "Scilab"
+  },
+  {
+    "code": "scss",
+    "name": "SCSS"
+  },
+  {
+    "code": "sed",
+    "name": "sed"
+  },
+  {
+    "code": "self",
+    "name": "Self"
+  },
+  {
+    "code": "shaderlab",
+    "name": "ShaderLab"
+  },
+  {
+    "code": "shell",
+    "name": "Shell"
+  },
+  {
+    "code": "shellsession",
+    "name": "ShellSession"
+  },
+  {
+    "code": "shen",
+    "name": "Shen"
+  },
+  {
+    "code": "slash",
+    "name": "Slash"
+  },
+  {
+    "code": "slim",
+    "name": "Slim"
+  },
+  {
+    "code": "smali",
+    "name": "Smali"
+  },
+  {
+    "code": "smalltalk",
+    "name": "Smalltalk"
+  },
+  {
+    "code": "smarty",
+    "name": "Smarty"
+  },
+  {
+    "code": "smt",
+    "name": "SMT"
+  },
+  {
+    "code": "solidity",
+    "name": "Solidity"
+  },
+  {
+    "code": "sourcepawn",
+    "name": "SourcePawn"
+  },
+  {
+    "code": "sparql",
+    "name": "SPARQL"
+  },
+  {
+    "code": "spline-font-database",
+    "name": "Spline Font Database"
+  },
+  {
+    "code": "sqf",
+    "name": "SQF"
+  },
+  {
+    "code": "sql",
+    "name": "SQL"
+  },
+  {
+    "code": "sqlpl",
+    "name": "SQLPL"
+  },
+  {
+    "code": "squirrel",
+    "name": "Squirrel"
+  },
+  {
+    "code": "srecode-template",
+    "name": "SRecode Template"
+  },
+  {
+    "code": "stan",
+    "name": "Stan"
+  },
+  {
+    "code": "standard-ml",
+    "name": "Standard ML"
+  },
+  {
+    "code": "stata",
+    "name": "Stata"
+  },
+  {
+    "code": "ston",
+    "name": "STON"
+  },
+  {
+    "code": "stylus",
+    "name": "Stylus"
+  },
+  {
+    "code": "sublime-text-config",
+    "name": "Sublime Text Config"
+  },
+  {
+    "code": "subrip-text",
+    "name": "SubRip Text"
+  },
+  {
+    "code": "sugarss",
+    "name": "SugarSS"
+  },
+  {
+    "code": "supercollider",
+    "name": "SuperCollider"
+  },
+  {
+    "code": "svg",
+    "name": "SVG"
+  },
+  {
+    "code": "swift",
+    "name": "Swift"
+  },
+  {
+    "code": "systemverilog",
+    "name": "SystemVerilog"
+  },
+  {
+    "code": "tcl",
+    "name": "Tcl"
+  },
+  {
+    "code": "tcsh",
+    "name": "Tcsh"
+  },
+  {
+    "code": "tea",
+    "name": "Tea"
+  },
+  {
+    "code": "terra",
+    "name": "Terra"
+  },
+  {
+    "code": "tex",
+    "name": "TeX"
+  },
+  {
+    "code": "text",
+    "name": "Text"
+  },
+  {
+    "code": "textile",
+    "name": "Textile"
+  },
+  {
+    "code": "thrift",
+    "name": "Thrift"
+  },
+  {
+    "code": "ti-program",
+    "name": "TI Program"
+  },
+  {
+    "code": "tla",
+    "name": "TLA"
+  },
+  {
+    "code": "toml",
+    "name": "TOML"
+  },
+  {
+    "code": "turing",
+    "name": "Turing"
+  },
+  {
+    "code": "turtle",
+    "name": "Turtle"
+  },
+  {
+    "code": "twig",
+    "name": "Twig"
+  },
+  {
+    "code": "txl",
+    "name": "TXL"
+  },
+  {
+    "code": "type-language",
+    "name": "Type Language"
+  },
+  {
+    "code": "typescript",
+    "name": "TypeScript"
+  },
+  {
+    "code": "unified-parallel-c",
+    "name": "Unified Parallel C"
+  },
+  {
+    "code": "unity3d-asset",
+    "name": "Unity3D Asset"
+  },
+  {
+    "code": "unix-assembly",
+    "name": "Unix Assembly"
+  },
+  {
+    "code": "uno",
+    "name": "Uno"
+  },
+  {
+    "code": "unrealscript",
+    "name": "UnrealScript"
+  },
+  {
+    "code": "urweb",
+    "name": "UrWeb"
+  },
+  {
+    "code": "vala",
+    "name": "Vala"
+  },
+  {
+    "code": "vcl",
+    "name": "VCL"
+  },
+  {
+    "code": "verilog",
+    "name": "Verilog"
+  },
+  {
+    "code": "vhdl",
+    "name": "VHDL"
+  },
+  {
+    "code": "vim-script",
+    "name": "Vim script"
+  },
+  {
+    "code": "visual-basic",
+    "name": "Visual Basic"
+  },
+  {
+    "code": "volt",
+    "name": "Volt"
+  },
+  {
+    "code": "vue",
+    "name": "Vue"
+  },
+  {
+    "code": "wavefront-material",
+    "name": "Wavefront Material"
+  },
+  {
+    "code": "wavefront-object",
+    "name": "Wavefront Object"
+  },
+  {
+    "code": "wdl",
+    "name": "wdl"
+  },
+  {
+    "code": "web-ontology-language",
+    "name": "Web Ontology Language"
+  },
+  {
+    "code": "webassembly",
+    "name": "WebAssembly"
+  },
+  {
+    "code": "webidl",
+    "name": "WebIDL"
+  },
+  {
+    "code": "wisp",
+    "name": "wisp"
+  },
+  {
+    "code": "world-of-warcraft-addon-data",
+    "name": "World of Warcraft Addon Data"
+  },
+  {
+    "code": "x10",
+    "name": "X10"
+  },
+  {
+    "code": "xbase",
+    "name": "xBase"
+  },
+  {
+    "code": "xc",
+    "name": "XC"
+  },
+  {
+    "code": "xcompose",
+    "name": "XCompose"
+  },
+  {
+    "code": "xml",
+    "name": "XML"
+  },
+  {
+    "code": "xojo",
+    "name": "Xojo"
+  },
+  {
+    "code": "xpages",
+    "name": "XPages"
+  },
+  {
+    "code": "xpm",
+    "name": "XPM"
+  },
+  {
+    "code": "xproc",
+    "name": "XProc"
+  },
+  {
+    "code": "xquery",
+    "name": "XQuery"
+  },
+  {
+    "code": "xs",
+    "name": "XS"
+  },
+  {
+    "code": "xslt",
+    "name": "XSLT"
+  },
+  {
+    "code": "xtend",
+    "name": "Xtend"
+  },
+  {
+    "code": "yacc",
+    "name": "Yacc"
+  },
+  {
+    "code": "yaml",
+    "name": "YAML"
+  },
+  {
+    "code": "yang",
+    "name": "YANG"
+  },
+  {
+    "code": "yara",
+    "name": "YARA"
+  },
+  {
+    "code": "zephir",
+    "name": "Zephir"
+  },
+  {
+    "code": "zimpl",
+    "name": "Zimpl"
+  }
+]

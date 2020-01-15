@@ -16,7 +16,7 @@ module Trends
       NetworkService
         .new(url: SERVICE_URL,
              request_type: :get,
-             params: { language: 'javascript', since: 'weekly' })
+             query: { language: language, since: since, type: type})
         .response
     end
   end

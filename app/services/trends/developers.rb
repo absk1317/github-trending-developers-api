@@ -4,35 +4,27 @@ module Trends
   # fetch trending developers service
   class Developers < Trends::Base
     SERVICE_URL = BASE_SERVICE_URL + '/developers'
-    attr_accessor :language, :since, :type
+    attr_accessor :language, :since, :type, :redis_key
 
     def initialize(params)
-      @language = params[:language]
-      @since    = params[:since]
-      @type     = params[:type]
+      @language  = params[:language]
+      @since     = params[:since]
+      @type      = params[:type]
+      @redis_key = "#{language}-#{since}-developers"
     end
 
     def results
-      if data_in_redis
-        parse_data(data_in_redis)
-      else
-        query_network
-      end
+      redis_data || fetch_data
     end
 
     private
 
-    def data_in_redis
-      @data_in_redis ||= redis.get("#{language}-#{since}-developers")
-    end
-
-    def query_network
-      data = NetworkService.new(url: SERVICE_URL,
-                                request_type: :get,
-                                query: { language: language, since: since, type: type })
+    def fetch_data
+      query = { language: language, since: since, type: type }
+      data = NetworkService.new(url: SERVICE_URL, request_type: :get, query: query)
                            .response
 
-      redis_set("#{language}-#{since}-developers", data)
+      redis_set(redis_key, data)
       data
     end
   end

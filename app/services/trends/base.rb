@@ -5,12 +5,20 @@ module Trends
   class Base
     BASE_SERVICE_URL = 'https://github-trending-api.now.sh'
 
+    protected
+
     def redis
       Redis.current
     end
 
     def parse_data(data)
       JSON.parse(data)
+    end
+
+    def redis_data
+      data = redis.get(redis_key)
+
+      return JSON.parse(data) if data
     end
 
     # expire the cache in 60 s by default

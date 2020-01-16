@@ -31,10 +31,8 @@ module Trends
       case since
       when 'daily'
         60 # 60 seconds expiry for daily
-      when 'weekly'
-        600 # 10 minutes expiry for weekly
-      when 'monthly'
-        6000 # 100 minutes expiry for monthly
+      when 'weekly', 'monthly'
+        600 # 10 minutes expiry for weekly and monthly
       else
         100 # 100 seconds otherwise
       end

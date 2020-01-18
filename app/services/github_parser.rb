@@ -14,6 +14,8 @@ class GithubParser
       end
     end
 
+    private
+
     def parse_data(element)
       repo_element = element.css('.mt-2 > article')
       {

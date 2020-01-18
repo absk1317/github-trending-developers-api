@@ -4,7 +4,7 @@ RSpec.configure do |config|
   config.before(:each) do
     mock_file = Rails.root.join('spec', 'support', 'mock_data', 'developers.html')
 
-    stub_request(:get, 'https://github.com/trending/developers')
+    stub_request(:get, %r{github.com/trending/developers})
       .with(
         headers: {
           'Accept' => '*/*',

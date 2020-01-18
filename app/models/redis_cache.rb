@@ -17,7 +17,13 @@ class RedisCache
   def find
     value = redis.get key
 
-    return parsed_data(value) if value
+    if value
+      begin
+        parsed_data(value)
+      rescue StandardError
+        value
+      end
+    end
   end
 
   private

@@ -2,7 +2,7 @@
 
 module Trends
   # fetch trending developers service
-  class Developers < Trends::Base
+  class Developers
     BASE_SERVICE_URL = 'https://github.com/trending'
     SERVICE_URL = BASE_SERVICE_URL + '/developers'
     attr_accessor :language, :since, :type, :redis_key
@@ -11,7 +11,7 @@ module Trends
       @language  = params[:language]
       @since     = params[:since]
       @type      = params[:type]
-      @redis_key = "#{language}-#{since}-developers"
+      @redis_key = "language:#{language}-since:#{since}-developers"
     end
 
     def results
@@ -20,6 +20,10 @@ module Trends
     end
 
     private
+
+    def redis_data
+      RedisCache.new(redis_key).find
+    end
 
     def fetch_data
       query = {}
@@ -33,8 +37,19 @@ module Trends
       # data = NetworkService.new(url: SERVICE_URL, request_type: :get, query: query)
       #                      .response
 
-      redis_set(redis_key, data)
+      RedisCache.new(redis_key).dump(data, fetch_expiry)
       data
+    end
+
+    def fetch_expiry
+      case since
+      when 'daily'
+        60 # 60 seconds expiry for daily
+      when 'weekly', 'monthly'
+        600 # 10 minutes expiry for weekly and monthly
+      else
+        6
+      end
     end
   end
 end

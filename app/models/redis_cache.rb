@@ -15,8 +15,11 @@ class RedisCache
   end
 
   def find
+    # fetch value from redis data-store
     value = redis.get key
 
+    # if value is there, try to parse and return it, return direct value elsewise
+    # we are trying to parse because while storing, we are storing as json
     if value
       begin
         parsed_data(value)
@@ -29,6 +32,7 @@ class RedisCache
   private
 
   def redis
+    # get the current redis instance
     @redis ||= Redis.current
   end
 

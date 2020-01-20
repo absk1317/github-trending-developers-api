@@ -8,7 +8,10 @@ class GithubParser
 
   class << self
     def parse_trending_developers(url)
+      # open the page in memory, with nokogiri
       page = HtmlParser.open(url)
+
+      # for each element of class Box, iterate and find required data
       page.css('.Box article.Box-row').map do |element|
         parse_data(element)
       end
@@ -16,6 +19,7 @@ class GithubParser
 
     private
 
+    # below method is called for each .Box row
     def parse_data(element)
       repo_element = element.css('.mt-2 > article')
       {
@@ -28,6 +32,7 @@ class GithubParser
       }
     end
 
+    # parse the repo data
     def parse_repo(repo_element)
       {
         name: repo_element.css('a').text.strip,
